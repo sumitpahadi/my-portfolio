@@ -13,8 +13,9 @@
                 -.1rem -.1rem 1rem #fff;
     --box-shadow-inset:.4rem .4rem 1rem #ccc inset,
                       -.4rem -.4rem 1rem #fff inset;  */
+                      font-family: Bogart-med;
 
-  background-image: url(https://deekshasharma.vercel.app/img/bg05.jpg);
+  
 }
 
 h1 {
@@ -95,11 +96,14 @@ section {
   color: var(--black);
   text-transform: uppercase;
   padding-bottom: 2rem;
+ 
+
 }
 
 .heading span {
   color: var(--green);
   text-transform: uppercase;
+
 }
 
 .header {
@@ -161,6 +165,7 @@ section {
   font-size: 2rem;
   box-shadow: var(--box-shadow);
   color: white;
+  font-family: Bogart-med;
 }
 
 .header .navbar a:hover {
@@ -326,6 +331,12 @@ section {
   
  background-color: #0077b5;
 }
+.about{
+  background-image: url(https://deekshasharma.vercel.app/img/bg05.jpg);
+  background-size: contain;
+  background-size: cover;
+  
+}
 
 .about .row {
   display: flex;
@@ -360,6 +371,7 @@ section {
   font-size: 1.7rem;
   color: var(--light-color);
   padding: 0.5rem 0;
+  font-family: Bogart-med;
 }
 
 .about .row .content {
@@ -386,7 +398,7 @@ section {
   color: var(--light-color);
   line-height: 1.8;
   padding: 1rem 0;
-  font-family: 'Nunito', sans-serif;
+  font-family: Bogart-med;
 }
 
 .about .row:nth-child(3) {
@@ -446,7 +458,11 @@ section {
 .about .row .progress .bar-2-3 span {
   width: 65%;
 }
-
+.services{
+  background-image: url(https://deekshasharma.vercel.app/img/bg05.jpg);
+  background-size: contain;
+  background-size: cover;
+}
 .services .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
@@ -500,15 +516,23 @@ section {
 .services .box-container .box:hover > * {
   color: #fff;
 }
-
+.portfolio{
+  background-image: url(https://deekshasharma.vercel.app/img/bg05.jpg);
+  background-size: contain;
+  background-size: cover;
+}
 .portfolio .box-container {
-  display: grid;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-  gap: 2rem;
+  gap: 2rem;margin-bottom: 90px;
+
 }
 
 .portfolio .box-container .box {
   height: 25rem;
+  width: 45rem;
   border-radius: 0.5rem;
   overflow: hidden;
   /* box-shadow: var(--box-shadow); */
@@ -563,10 +587,18 @@ section {
 }
 
 .contact {
+ 
+  background-image: url(https://deekshasharma.vercel.app/img/bg05.jpg);
+  background-size: contain;
+  background-size: cover;
+  
+ 
+}
+.container{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
- 
+  font-family: Bogart-med;
 }
 .contact form {
     margin: 1rem auto;
@@ -615,6 +647,11 @@ section {
   margin-top: 1rem;
   border-top: var(--border);
   color: white;
+  background-image: url(https://deekshasharma.vercel.app/img/bg05.jpg);
+  background-size: contain;
+  background-size: cover;
+  margin-top: -5px;
+  font-family: Bogart-med;
 }
 
 .credits span {

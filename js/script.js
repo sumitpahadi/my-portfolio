@@ -24,4 +24,4 @@ function resetAnimation() {
   str = string.split(""); // Reset the array of characters
 }
 
-var animationInterval = setInterval(animate, 200);
+var animationInterval = setInterval(animate, 250);
